@@ -1,8 +1,8 @@
 {
   "name": "ionic-base",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Diego Maidana",
+  "homepage": "http://diegomaidana.com/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -36,5 +36,5 @@
     "@ionic/app-scripts": "3.1.8",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project base project for cool developers who want to save some time and still have good quality code"
 }
