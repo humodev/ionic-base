@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NetworkingProvider } from '../providers/networking/networking';
+import { StorageProvider } from '../providers/storage/storage';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { NetworkingProvider } from '../providers/networking/networking';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    NetworkingProvider
+    NetworkingProvider,
+    StorageProvider
   ]
 })
 export class AppModule {}
